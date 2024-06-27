@@ -1,19 +1,19 @@
 .callout {
-	width: 300px;
-    margin: 12px;
-    border: 2px solid rgba(0,0,0,.2);
-    padding: 20px;
-    background-color: #250;
-    color: #ff0;
+	width: 400px;
+    margin: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 15px;
+    background-color: #247;
+    color: #fff;
 }
 
 .callout img {
-    float: left;
-    margin: 0 0 15px 20px;
-    border: 2px solid #010;
-    padding: 5px;
-    background-color: #bab;
-    width: 120px;
+    float: right;
+    margin: 0 0 10px 15px;
+    border: 1px solid #000;
+    padding: 3px;
+    background-color: #bbb;
+    width: 100px;
     height: auto;
 	
 }
@@ -24,8 +24,8 @@ blockquote {
 
 cite {
     display: block;
-    border-top: 2px dotted #fbf;
-    padding-top: 5px;
-    text-align: left;
+    border-top: 1px dotted #fff;
+    padding-top: 3px;
+    text-align: right;
     font-size: smaller;	
 }
