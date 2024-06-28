@@ -1,12 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body {
-    font-family: var("Open Sans", sans-serif);
-    font-family: var("Bree Serif", serif);
-    max-width: 960px;
-    padding: 20px;
-}
 :root {
     --primary-color: #077f8d;
     --secundary-color: #090604;
@@ -23,7 +17,7 @@ body {
     --nav-hover-background-color: #050505;
 }
 body {
-    font: var(--paragraph-font);
+    font-family: var(--paragraph-font);
     max-width: 960px;
     margin: 0 auto;
     padding: 20px;
