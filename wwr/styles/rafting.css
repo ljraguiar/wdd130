@@ -28,10 +28,27 @@ body {
 h1, h2 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    position: absolute;
 }
 p {
     padding: 25px 0;
 }
 section {
     text-decoration: none;
+}
+.hero {
+    position: relative;
+}
+article {
+    position: absolute;
+    color: #ddd;
+}
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+article img {
+    float: right;
 }
