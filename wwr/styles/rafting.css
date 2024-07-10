@@ -89,6 +89,10 @@ article {
     color: var(--secundary-color);
 }
 
+article h2 {
+    color: var(--primary-color)
+}
+
 article img {
     max-width: 70%;
     width: 200px;
