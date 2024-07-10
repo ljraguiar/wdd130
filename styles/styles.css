@@ -6,18 +6,34 @@
 
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: steelblue;
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid steelblue;
+    padding-bottom: 10px;
 }
+
+h2 {
+    color: steelblue;
+    margin-bottom: 20px;
+}
+
 img {
     width: 150px;
     height:auto;
@@ -25,10 +41,22 @@ img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {  
     padding: 10px;
+    line-height: 1.6;
 }
+
+.grid {  
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 1rem;
+    align-items: start;
+}
+
 main {  
+    grid-column: 2/3;
+    margin: 1rem;
     max-width: 840px;
 }
 aside {  
@@ -40,27 +68,39 @@ aside {
     color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
 aside h2 {
     position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+    padding: 0 10px;
+    color: steelblue;
+    font-size: 1.5rem;
 }
+
 aside img {
-    top: 47px;
-    left: 150px;
-    width: 200px;
+    margin-top: 40px;
+    width: 100%;
     height: auto;
 } 
+
 main img {
     width: 150px;
     height: auto;
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
+    margin-left: 20px;
 }
-footer {        
-    margin-top: 15px;
-    border-top: 1 px solid #000;
+
+header, .grid,  footer {        
+    margin: 0 auto;
+    max-width: 840 px;
     text-align: center;
 }
 
@@ -71,4 +111,18 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+}
+
+footer {
+    padding: 1rem;
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
 }
