@@ -50,7 +50,6 @@ header nav {
     color: var(--secundary-color);
     padding: 10px 20px;
     border-radius: 5px;
-    position: center;
     background-color: var(--nav-background-color);  
 }
 
@@ -62,7 +61,7 @@ header nav a:hover{
 h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
-    margin: 20 px 0;
+    margin: 20px 0;
     border-bottom: 2px solid var(--primary-color);
     padding-bottom: 10px;
 }
