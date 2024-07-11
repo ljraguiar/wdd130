@@ -100,14 +100,13 @@ main img {
 
 header, .grid,  footer {        
     margin: 0 auto;
-    max-width: 840 px;
+    max-width: 840px;
     text-align: center;
 }
 
-/* Class Selectors */
 .box {
     margin: 1rem;
-    border: 1px solid rgba (0, 0, 0,.1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
